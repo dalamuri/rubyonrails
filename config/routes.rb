@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get 'pages/home', to: 'pages#home'
   get 'pages/about', to: 'pages#about'
   get 'welcome/home', to: 'welcome#home'
-  get 'about', to: 'pages#about'
+  get 'welcome/about', to: 'pages#about'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
